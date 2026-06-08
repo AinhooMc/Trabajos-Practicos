@@ -14,14 +14,19 @@ console.log("el resultado de la resta es " + resta);
 let nu5=2
 let nu6=6
 let mult= nu5*nu6
-console.log("el resultado de la multiplicación es " + mult);
+console.log("el resultado de la resta es " + mult);
 //elercicio 1d
 let nu7=8
 let nu8=2
 let div= nu7/nu8
-console.log("el resultado de la división es " + div);
-//ejercicio 2a
-alert(suma)
-alert (resta)
-//ejercicio 3b
-
+console.log("el resultado de la resta es " + div);
+//ejercicio 2a y 3b
+alert("el resultado de la suma es" + suma)
+alert("el resultado de la resta es " + resta)
+//ejercicio 4a
+let nombreAlumno="Robert"
+//ejercicio 4b
+let apellidoAlumno="Irwin"
+//ejercicio 4c
+let edadAlumno=22
+//ejercicio 4d
