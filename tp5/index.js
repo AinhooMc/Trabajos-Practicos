@@ -30,7 +30,7 @@ let apellidoAlumno="Irwin"
 //ejercicio 4c
 let edadAlumno=22 
 //ejercicio 4d
-console.log("el alumno:"+nombreAlumno+apellidoAlumno+ " tiene"+ edadAlumno+"años");
+console.log("el alumno:"+nombreAlumno + apellidoAlumno+ " tiene "+ edadAlumno+" años");
 //ejercicio 5a
 let precio1=20
 let precio2=20
@@ -40,7 +40,7 @@ let total= precio1+precio2+precio3
 //ejercicio 5c
 console.log("el total a pagar es: " + total);
 //ejercicio 6a
-let comidaFavorita= "fideos con brocoli"
+let comidaFavorita= "Fideos con Brocoli"
 let= colorFavorito="Azul oscuro"
 let numeroFavorito=11
 //ejercicio 6b
@@ -50,6 +50,6 @@ let pais='Argentina'
 //ejercicio 7b
 console.log(pais);
 //ejercicio 7c
-pais='brasil'
+pais='Brasil'
 //ejercicio 7d
 console.log(pais);
