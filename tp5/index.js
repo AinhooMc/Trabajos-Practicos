@@ -1,4 +1,5 @@
 //ejercicio 1a
+/*
 let nu1=20
 let nu2=20
 let suma = nu1 + nu2
@@ -53,3 +54,13 @@ console.log(pais);
 pais='Brasil'
 //ejercicio 7d
 console.log(pais);
+*/
+//act dom
+let Titulo=document.querySelector("h1")
+let boton=document.querySelector("button")
+boton.onclick=function(){
+ Titulo.style.backgroundColor="Navy"
+ Titulo.style.fontFamily= "Georgia"
+ Titulo.style.color="white"
+}
+   
