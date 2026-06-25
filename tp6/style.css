@@ -1,0 +1,30 @@
+body{
+    background-color: #507697;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#caja{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+}
+
+#texto{
+font-size: 15px;
+color:rgb(255, 255, 255); 
+}
+
+button{
+    background-color:#416686; 
+    color:rgb(255, 255, 255);  
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color:#5d84a7; 
+}
