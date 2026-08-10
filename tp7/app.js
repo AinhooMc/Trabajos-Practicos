@@ -13,14 +13,27 @@ btnEj1.onclick=function (){
 
 ejercicio 2
 
-let nombreUsuario= "Nahuel"
+let nombreUsuario= "kjkkj"
 let parrafo= document.querySelector ("#parr")
 let btn2 = document.querySelector("#btn2")
 
+
 btn2.onclick=function (){
-    if (nombreUsuario == "Nahuel") {
-        parrafo.textContent= "Bienvenido Nahuel, ¿Cómo estás?"
+    if (nombreUsuario == "Nahuel" || nombreUsuario == "Marcos") {
+        parrafo.textContent= "Bienvenido " + nombreUsuario+ " ,cómo estas?"
     } else {
         parrafo.textContent="Bienvenido Usuario"
     }
-}*/
+} 
+ejercicio 4*/
+let numero = 8
+let parrafo= document.querySelector ("#ej4p")
+let btn4= document.querySelector("#btn4")
+
+btn4.onclick=function(){
+    if (numero > 0) {
+        parrafo.textContent= "el numero es positivo"
+    } else {
+        
+    }
+}
