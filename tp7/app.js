@@ -25,15 +25,47 @@ btn2.onclick=function (){
         parrafo.textContent="Bienvenido Usuario"
     }
 } 
-ejercicio 4*/
-let numero = 8
-let parrafo= document.querySelector ("#ej4p")
+ejercicio 4
+let numero = 0
 let btn4= document.querySelector("#btn4")
+let parrafo= document.querySelector("#parrafo")
 
 btn4.onclick=function(){
     if (numero > 0) {
-        parrafo.textContent= "el numero es positivo"
-    } else {
-        
+       parrafo.textContent = "el numero es positivo"
+    } else if (numero < 0) {
+        parrafo.textContent="el numero es negativo"
+    } else if (numero == 0) {
+        parrafo.textContent="el numero es cero"
     }
+
 }
+ejercicio 5 
+let edad=6
+let parrafo = document.querySelector("#p5")
+if (edad > 6 && edad < 11) {
+    parrafo.textContent="sos un niño"
+} else if (edad > 12 && edad < 18) {
+    parrafo.textContent="sos un adolescente"
+} else if (edad > 19 && edad < 26) {
+    parrafo.textContent="sos un joven"
+} else if (edad > 27 && edad < 59) {
+    parrafo.textContent="sos un adulto"
+} else if (edad > 60 ) {
+    parrafo.textContent="sos un anciano"
+} else  {
+    parrafo.textContent="sos un bebé"
+}
+ejercicio 7 */
+let btn7= document.querySelector("#btn7")
+let parrafo= document.querySelector("#ej7")
+let contra= 181222
+
+btn7.onclick=function(){
+if (contra=181222) {
+    parrafo.textContent="Acceso concedido"
+} else {
+    parrafo.textContent= "Acceso denegado"
+}
+}
+
