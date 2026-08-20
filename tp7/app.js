@@ -1,4 +1,4 @@
-/*ejercicio 1
+//ejercicio 1
 let  ej1 = document.querySelector ("#ej1")
 let btnEj1 = document.querySelector ("#btnEj1")
 let edad= 18
@@ -11,7 +11,7 @@ btnEj1.onclick=function (){
     }
 }
 
-ejercicio 2
+//ejercicio 2 y 3
 
 let nombreUsuario= "kjkkj"
 let parrafo= document.querySelector ("#parr")
@@ -25,7 +25,7 @@ btn2.onclick=function (){
         parrafo.textContent="Bienvenido Usuario"
     }
 } 
-ejercicio 4
+//ejercicio 4
 let numero = 0
 let btn4= document.querySelector("#btn4")
 let parrafo= document.querySelector("#parrafo")
@@ -40,7 +40,7 @@ btn4.onclick=function(){
     }
 
 }
-ejercicio 5 
+//ejercicio 5 
 let edad=6
 let parrafo = document.querySelector("#p5")
 if (edad > 6 && edad < 11) {
@@ -56,7 +56,7 @@ if (edad > 6 && edad < 11) {
 } else  {
     parrafo.textContent="sos un bebé"
 }
-ejercicio 7 */
+//ejercicio 7 
 let btn7= document.querySelector("#btn7")
 let parrafo= document.querySelector("#ej7")
 let contra= 181222
@@ -66,6 +66,20 @@ if (contra=181222) {
     parrafo.textContent="Acceso concedido"
 } else {
     parrafo.textContent= "Acceso denegado"
+}
+}
+
+//ejercicio 6
+
+let dia = "domingo"
+let btn6= document.querySelector("#btn6")
+let parrafo= document.querySelector("#pej6")
+
+btn6.onclick=function(){
+if (dia == "lunes"|| dia== "martes"|| dia== "miercoles"|| dia== "jueves"|| dia=="viernes") {
+    parrafo.textContent="Es un dia laborable"
+} else {
+    parrafo.textContent="Es fin de semana"
 }
 }
 
