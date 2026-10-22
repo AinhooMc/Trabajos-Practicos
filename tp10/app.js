@@ -10,3 +10,7 @@ console.log(utiles)
 console.log (utiles.unshift("cartuchera"))
 console.log(utiles)
 console.log (utiles.length)
+console.log (utiles.pop(6))
+
+
+
