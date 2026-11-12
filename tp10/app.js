@@ -1,3 +1,4 @@
+/*
 //act 1
 let utiles = ["Lápiz", "Goma", "Regla", "Cuaderno", "Lapicera"];
 
@@ -20,5 +21,42 @@ console.log (utiles.length)
 //act 2
 let productos = ["Leche", "Pan", "Arroz", "Fideos", "Aceite"];
 
-console.log (producto)
+console.log (productos)
 console.log
+console.log (productos.push ("azucar"))
+console.log (productos.push ("yerba"))
+console.log (productos.push ("cafe"))
+console.log (productos)
+console.log (productos.unshift ("sal"))
+console.log (productos.unshift ("galletitas"))
+console.log (productos)
+console.log
+console.log (productos.pop())
+console.log (productos)
+console.log (productos.shift())
+console.log (productos)
+console.log (productos)
+console.log (productos.length)
+
+//act 3
+let productos2 = [ "Teclado","Mouse","Monitor","Auriculares","Webcam","Parlantes" ];
+
+console.log (productos2)
+console.log (productos2.indexOf ("mouse"))
+*/
+
+
+//act 4
+let videojuegos = ["Minecraft","Pokémon Cristal","Super Mario","The Legend of Zelda","Sonic"];
+
+console.log (videojuegos)
+console.log (videojuegos.length)
+console.log (videojuegos.push ("Animal Crossing"))
+console.log (videojuegos.push ("Pokemon Rojo"))
+console.log (videojuegos)
+console.log (videojuegos.unshift("Tetris"))
+console.log (videojuegos.unshift("Pac-Man"))
+console.log (videojuegos)
+console.log (videojuegos.indexOf ("Pokémon Cristal"))
+console.log (videojuegos)
+console.log (videojuegos.indexOf ("Sonic"))
