@@ -60,3 +60,40 @@ console.log (videojuegos)
 console.log (videojuegos.indexOf ("Pokémon Cristal"))
 console.log (videojuegos)
 console.log (videojuegos.indexOf ("Sonic"))
+console.log (videojuegos.indexOf ("FIFA"))
+console.log (videojuegos)
+console.log (videojuegos.pop())
+console.log (videojuegos)
+console.log (videojuegos)
+console.log (videojuegos.length)
+
+//act 5
+
+let estudiantes = ["Martina","Lucas","Sofía","Tomás","Valentina" ];
+
+console.log (estudiantes)
+console.log (estudiantes.length)
+console.log (estudiantes.push ("Agustín"))
+console.log (estudiantes.push ("Camila"))
+console.log (estudiantes)
+console.log (estudiantes.unshift("Bruno"))
+console.log (estudiantes)
+console.log (estudiantes.length)
+console.log (estudiantes.indexOf("Sofia"))
+console.log (estudiantes)
+console.log (estudiantes.indexOf("Camila"))
+console.log (estudiantes.indexOf("sofia"))
+console.log (estudiantes)
+
+
+
+
+
+
+
+
+
+
+
+
+
