@@ -82,8 +82,56 @@ console.log (estudiantes.length)
 console.log (estudiantes.indexOf("Sofia"))
 console.log (estudiantes)
 console.log (estudiantes.indexOf("Camila"))
-console.log (estudiantes.indexOf("sofia"))
+console.log (estudiantes.indexOf("Sofia"))
 console.log (estudiantes)
+console.log (estudiantes.indexOf("Camila"))
+console.log (estudiantes)
+console.log (estudiantes.indexOf("Federico"))
+console.log (estudiantes)
+console.log (estudiantes.shift())
+console.log (estudiantes)
+console.log (estudiantes.pop())
+console.log (estudiantes)
+console.log (estudiantes)
+console.log (estudiantes.length)
+
+//act 6
+
+let tareas = ["Estudiar","Hacer la tarea","Ordenar la habitación","Comprar alimentos"];
+
+console.log(tareas)
+console.log(tareas.length)
+console.log(tareas.push("Pasear al perro"))
+console.log(tareas.push("Preparar la cena"))
+console.log(tareas)
+console.log(tareas.unshift("Entregar un trabajo"))
+console.log(tareas)
+console.log(tareas.indexOf("Estudiar"))
+console.log(tareas)
+console.log(tareas.indexOf("Lavar el auto"))
+console.log(tareas)
+console.log(tareas.shift())
+console.log(tareas)
+console.log(tareas.pop())
+console.log(tareas)
+console.log(tareas.push("Leer un libro"))
+console.log(tareas.unshift("Hacer ejercicio"))
+console.log(tareas)
+console.log(tareas.length)
+
+//act 7
+
+let peliculas = ["Toy Story","Shrek","Buscando a Nemo","Los Increíbles","Ratatouille"];
+
+console.log(peliculas)
+console.log(peliculas.length)
+console.log(peliculas.push ("Cars"))
+console.log(peliculas.push ("Monster Inc"))
+console.log(peliculas)
+
+
+
+
 
 
 
